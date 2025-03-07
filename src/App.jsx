@@ -2,6 +2,7 @@ import Navbar from './component/Nav'
 import Hero from './component/Hero'
 import About from './component/About'
 import DonationCard from './component/Cards'
+import TeamMembers from './component/Team'
 
 import './App.css'
 
@@ -18,6 +19,7 @@ function App() {
      <DonationCard/>
      <DonationCard/>
      </div>
+     <TeamMembers/>
      
     
     </>

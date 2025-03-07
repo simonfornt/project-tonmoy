@@ -1,5 +1,3 @@
-import Hamberger from "./Hambeger";
-
 function Navbar(){
     return(
         <>
