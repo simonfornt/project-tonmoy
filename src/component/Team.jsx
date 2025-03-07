@@ -33,7 +33,7 @@ function Team(){
                 {teamMembers.map((member, index) => (
                 <div key={index} className="bg-white shadow-lg rounded-lg p-6 text-center">
                     <img src={member.image}
-                     alt={member.name} className="w-24 h-24 mx-auto rounded-full object-cover" />
+                     alt={member.name} className="w-24 h-24 mx-auto rounded-full object-cover ring-4 ring-cyan-500" />
                      <h3 className="text-xl font-semibold mt-4 text-gray-800">{member.name}</h3>
                      <p className="text-gray-600">{member.role}</p>
                 </div>

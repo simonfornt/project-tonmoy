@@ -3,7 +3,7 @@ import React from "react";
 const Hero = () => {
   // Function to show alert
   const handleDonateClick = () => {
-    alert("Send money by Bkash 01724239801");
+    alert(`Bkash Number 01724239801`);
   };
 
   return (
@@ -13,7 +13,7 @@ const Hero = () => {
         backgroundImage: "url('https://media.istockphoto.com/id/613253596/photo/group-of-happy-gypsy-indian-children-desert-village-india.jpg?s=612x612&w=0&k=20&c=L5zHBbisaiGg098L_Txc8v6r8oOFBylw47EA8pEWhic=')",
       }}
     >
-      <div className="absolute inset-0 bg-black opacity-30"></div>
+      <div className="absolute inset-0 bg-black opacity-30 pointer-events-none"></div>
       <div className="bg-opacity-60 p-8 md:p-12 rounded-lg text-center max-w-lg">
    
         <h1 className="text-3xl md:text-4xl font-bold text-yellow-400">

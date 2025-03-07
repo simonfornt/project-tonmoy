@@ -2,7 +2,7 @@ import React from "react";
 
 
 function About({ title, description, imageUrl }) {
-  console.log(title, description, imageUrl);
+
   return (
     <section className="bg-gray-100 py-12 px-4 md:px-12">
       <h1 className="text-center text-4xl font-extrabold text-teal-700 mb-8">
