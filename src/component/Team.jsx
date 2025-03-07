@@ -2,22 +2,22 @@ const teamMembers = [
     {
       name: "John Doe",
       role: "CEO & Founder",
-      image: "https://via.placeholder.com/150",
+      image: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
     },
     {
       name: "Jane Smith",
       role: "Lead Developer",
-      image: "https://via.placeholder.com/150",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGeBLDLvb7im7q9gygKhAs8fIqYTShKzrNVg&s",
     },
     {
       name: "Michael Johnson",
       role: "UI/UX Designer",
-      image: "https://via.placeholder.com/150",
+      image: "https://www.stylecraze.com/wp-content/uploads/2013/06/Beautiful-Chinese-Girl-1_1200px.jpg.webp",
     },
     {
       name: "Emily Davis",
       role: "Marketing Manager",
-      image: "https://via.placeholder.com/150",
+      image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-C_UAhXq9GfuGO452EEzfbKnh1viQB9EDBQ&s",
     },
   ];
 
