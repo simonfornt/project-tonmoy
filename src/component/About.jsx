@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function About({ title, description, imageUrl }) {
+function About({ title, description, imageUrl,className }) {
 
   return (
     <section className="bg-gray-100 py-12 px-4 md:px-12">
@@ -9,9 +9,9 @@ function About({ title, description, imageUrl }) {
         {title}
       </h1>
 
-      <div className="flex flex-col md:flex-row items-center gap-10">
+      <div className={`flex flex-col  items-center gap-10 ${className}`}>
         <div className="bg-white p-6 md:p-10 shadow-lg border-l-4 border-teal-500 rounded-lg max-w-2xl">
-          <p className="text-gray-700 text-lg leading-relaxed">
+          <p className=" text-lg text-gray-700 leading-relaxed">
             {description}
           </p>
         </div>

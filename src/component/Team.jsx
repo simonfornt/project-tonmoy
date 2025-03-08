@@ -1,8 +1,11 @@
+import React from "react";
+import tonmoy from '../assets/tonmoy.jpg'
+
 const teamMembers = [
     {
-      name: "John Doe",
+      name: "Tanmoy Modal",
       role: "CEO & Founder",
-      image: "https://t3.ftcdn.net/jpg/02/43/12/34/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg",
+      image: tonmoy,
     },
     {
       name: "Jane Smith",
